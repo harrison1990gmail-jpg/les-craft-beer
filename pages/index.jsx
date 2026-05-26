@@ -26,6 +26,7 @@ import CraftBeerHeroVideo from '../components/CraftBeerHeroVideo';
 import CTASection from '../components/CTASection';
 import MapBlock from '../components/MapBlock';
 import useSiteContent from '../components/useSiteContent';
+import { withBasePath } from '../components/sitePath';
 import { advantages, processSteps, services, testimonials } from '../assets/siteData';
 
 const beerStyles = [
@@ -214,7 +215,7 @@ export default function HomePage() {
             {spaceScenes.map(([title, people, text], index) => (
               <article key={title} className="overflow-hidden rounded-sm border border-black/10 bg-white shadow-sm">
                 <img
-                  src={['/assets/scene-friends.jpg', '/assets/scene-team.jpg', '/assets/scene-tasting.jpg'][index]}
+                  src={withBasePath(['/assets/scene-friends.jpg', '/assets/scene-team.jpg', '/assets/scene-tasting.jpg'][index])}
                   alt={title}
                   className="h-56 w-full object-cover"
                 />

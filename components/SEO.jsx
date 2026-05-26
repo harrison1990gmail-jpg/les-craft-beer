@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { brand } from '../assets/siteData';
 import useSiteContent from './useSiteContent';
+import { withBasePath } from './sitePath';
 
 export default function SEO({
   title = `${brand.name} | ${brand.tagline}`,
@@ -12,7 +13,8 @@ export default function SEO({
   const effectiveTitle = useAdminSeo ? content.seo.title || title : title;
   const effectiveDescription = useAdminSeo ? content.seo.description || description : description;
   const effectiveKeywords = useAdminSeo ? content.seo.keywords || "南昌精酿,南昌啤酒屋,南昌酒吧,企业团建,私享包场,LE'S CRAFT BEER" : "企业官网,招商展示页,网站建设,品牌官网,企业建站";
-  const url = `https://www.lescraftbeer.com${path}`;
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://harrison1990gmail-jpg.github.io/les-craft-beer';
+  const url = `${siteUrl}${path === '/' ? '/' : path}`;
 
   return (
     <Head>
@@ -24,9 +26,9 @@ export default function SEO({
       <meta property="og:description" content={effectiveDescription} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={url} />
-      <meta property="og:image" content="https://www.lescraftbeer.com/assets/og-cover.svg" />
+      <meta property="og:image" content={`${siteUrl}/assets/og-cover.svg`} />
       <link rel="canonical" href={url} />
-      <link rel="icon" href="/assets/favicon.svg" />
+      <link rel="icon" href={withBasePath('/assets/favicon.svg')} />
     </Head>
   );
 }

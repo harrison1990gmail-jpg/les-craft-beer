@@ -1,10 +1,12 @@
+import { withBasePath } from './sitePath';
+
 export default function CraftBeerHeroVideo() {
   return (
     <div className="relative h-[420px] w-full overflow-hidden rounded-sm bg-ink">
       <video
         className="h-full w-full object-cover"
-        src="/assets/craft-beer-pour.mp4"
-        poster="/assets/scene-tasting.jpg"
+        src={withBasePath('/assets/craft-beer-pour.mp4')}
+        poster={withBasePath('/assets/scene-tasting.jpg')}
         autoPlay
         muted
         loop
