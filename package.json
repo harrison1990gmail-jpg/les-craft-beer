@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:edgeone": "node scripts/build-edgeone.js",
+    "build:github": "node scripts/build-github.js",
     "lint": "next lint"
   },
   "dependencies": {
