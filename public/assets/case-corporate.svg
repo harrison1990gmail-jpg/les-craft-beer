@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#111111"/>
+  <rect x="48" y="56" width="624" height="250" rx="6" fill="#2E5E4E"/>
+  <rect x="88" y="96" width="544" height="70" rx="4" fill="#0D0D0D" opacity="0.7"/>
+  <text x="360" y="142" text-anchor="middle" font-size="34" font-family="Arial, sans-serif" font-weight="900" fill="#F4EFE6">CORPORATE NIGHT</text>
+  <g fill="#C88A2D">
+    <circle cx="170" cy="238" r="28"/>
+    <circle cx="260" cy="238" r="28"/>
+    <circle cx="350" cy="238" r="28"/>
+    <circle cx="440" cy="238" r="28"/>
+    <circle cx="530" cy="238" r="28"/>
+  </g>
+  <rect x="70" y="310" width="580" height="44" rx="8" fill="#7A4A28"/>
+  <text x="360" y="382" text-anchor="middle" font-size="24" font-family="serif" font-weight="700" fill="#C88A2D">樂 · LE'S CRAFT BEER</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="0.58" stop-color="#1d1711"/>
+      <stop offset="1" stop-color="#2E5E4E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="120" r="150" fill="#C88A2D" opacity="0.18"/>
+  <circle cx="180" cy="540" r="180" fill="#2E5E4E" opacity="0.28"/>
+  <text x="100" y="170" font-size="120" font-family="serif" font-weight="700" fill="#C88A2D">樂</text>
+  <text x="100" y="285" font-size="76" font-family="Arial, sans-serif" font-weight="900" fill="#F4EFE6">LE'S CRAFT BEER</text>
+  <text x="104" y="360" font-size="34" font-family="Arial, sans-serif" fill="#F4EFE6" opacity="0.82">南昌本土精酿啤酒体验空间</text>
+  <text x="104" y="430" font-size="28" font-family="Arial, sans-serif" fill="#C88A2D">企业团建 / 私享包场 / 商务酒会</text>
+</svg>

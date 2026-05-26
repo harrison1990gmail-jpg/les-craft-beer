@@ -1,0 +1,34 @@
+
+> les-craft-beer-website@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 1949ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.2s (369 modules)
+ GET / 200 in 2831ms
+ GET / 200 in 29ms
+ GET / 200 in 22ms
+ GET / 200 in 19ms
+ ✓ Compiled in 486ms (377 modules)
+ GET / 200 in 20ms
+ GET / 200 in 6ms
+ GET / 200 in 4ms
+ GET / 200 in 4ms
+ ✓ Compiled in 901ms (379 modules)
+ GET / 200 in 15ms
+ GET / 200 in 6ms
+ GET / 200 in 7ms
+ GET / 200 in 5ms
+ ✓ Compiled in 473ms (379 modules)
+ ✓ Compiled in 660ms (379 modules)
+ GET / 200 in 25ms
+ GET / 200 in 25ms
+ GET / 200 in 8ms
+ GET / 200 in 7ms
+ GET / 200 in 9ms
+ GET / 200 in 4ms
+ GET / 200 in 10ms
