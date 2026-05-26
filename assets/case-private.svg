@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#F4EFE6"/>
+  <rect x="50" y="50" width="620" height="320" rx="6" fill="#111111"/>
+  <circle cx="210" cy="170" r="78" fill="#C88A2D"/>
+  <circle cx="500" cy="170" r="78" fill="#2E5E4E"/>
+  <rect x="150" y="260" width="420" height="48" rx="8" fill="#7A4A28"/>
+  <text x="360" y="145" text-anchor="middle" font-size="74" font-family="serif" font-weight="700" fill="#F4EFE6">樂</text>
+  <text x="360" y="215" text-anchor="middle" font-size="31" font-family="Arial, sans-serif" font-weight="900" fill="#F4EFE6">PRIVATE PARTY</text>
+  <text x="360" y="340" text-anchor="middle" font-size="21" font-family="Arial, sans-serif" fill="#C88A2D">CRAFT BEER · FRIENDS · NANCHANG</text>
+</svg>
